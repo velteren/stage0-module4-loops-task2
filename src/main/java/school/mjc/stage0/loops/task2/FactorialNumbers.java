@@ -9,7 +9,7 @@ public class FactorialNumbers {
         return result;
     }
     public void printFactorialRow(int printToInclusive) {
-        int counter = 1;
+        int counter = 0;
         if (printToInclusive <= 0) {
             System.out.println(1);
             counter = printToInclusive + 1;
